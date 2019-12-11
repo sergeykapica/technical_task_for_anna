@@ -1,0 +1,67 @@
+<?
+$MESSAGE['AUTHORIZATE_BUTTON_TITLE'] = 'Вход / Регистрация';
+$MESSAGE['LOGIN_TITLE'] = 'Вход';
+$MESSAGE['REGISTER_TITLE'] = 'Регистрация';
+$MESSAGE['LOGIN_BUTTON_TITLE'] = 'Войти';
+$MESSAGE['ENTER_LOGIN'] = 'Введите логин';
+$MESSAGE['ENTER_PASSWORD'] = 'Введите пароль';
+$MESSAGE['ENTER_CAPTCHA_CODE'] = 'Введите код капчи';
+$MESSAGE['USER_REGISTER_LOGIN'] = 'Введите логин';
+$MESSAGE['USER_REGISTER_NAME'] = 'Введите имя';
+$MESSAGE['USER_REGISTER_LAST_NAME'] = 'Введите фамилию';
+$MESSAGE['USER_REGISTER_BIRTHDATE'] = 'Введите дату рождения';
+$MESSAGE['VALIDATOR_MIN_SYMBOLS'] = 'Минимальное количество символов';
+$MESSAGE['VALIDATOR_MAX_SYMBOLS'] = 'Максимальное количество символов';
+$MESSAGE['VALIDATOR_NOT_DATE_FORMAT'] = 'Строка не является датой в нужном формате';
+$MESSAGE['VALIDATOR_NOT_EMAIL_FORMAT'] = 'Строка не является адресом электронной почты';
+$MESSAGE['VALIDATOR_FIELD_EMPTY'] = 'Заполните поле';
+$MESSAGE['VALIDATOR_PASSWORD_UNCONFORMITY'] = 'Пароли не соответствуют друг другу';
+$MESSAGE['VALIDATOR_NOT_CONTAINS_INICIALS'] = 'Не содержит имя и фамилию';
+$MESSAGE['REGISTER_SELECT_COUNTRY'] = 'Выберите страну';
+$MESSAGE['REGISTER_SELECT_CITY'] = 'Выберите город';
+$MESSAGE['REGISTER_SELECT_FILE'] = 'Выберите файл';
+$MESSAGE['USER_REGISTER_PASSWORD'] = 'Введите пароль';
+$MESSAGE['USER_REGISTER_CONFIRM_PASSWORD'] = 'Повторите пароль';
+$MESSAGE['USER_REGISTER_EMAIL'] = 'Введите адрес электронной почты';
+$MESSAGE['REGISTER_BUTTON_TITLE'] = 'Зарегистрироваться';
+$MESSAGE['ENTER_CAPTCHA_ERROR'] = 'Капча введена неверно';
+$MESSAGE['CONFIRM_EMAIL_INVITATION'] = 'Для подтверждения регистрации пройдите по ссылке ниже, введя код в поле:';
+$MESSAGE['REGISTER_CONTINUE_BUTTON'] = 'Продолжить регистрацию';
+$MESSAGE['USER_ABOUT_DECRIPTION'] = 'Напишите что-нибудь о себе';
+$MESSAGE['APPEAL_USER'] = 'Здравствуйте, уважаем(ая)ый';
+$MESSAGE['SEND_RESULT_TEXT_SUCCESS'] = 'Письмо для подтверждения регистрации успешно отправлено на адрес %s';
+$MESSAGE['SEND_RESULT_TEXT_ERROR'] = 'При отправке письма возникла ошибка';
+$MESSAGE['CONFIRMATION_CODE'] = 'Введите код подтверждения';
+$MESSAGE['CONFIRMATION_CODE_BUTTON'] = 'Подтвердить регистрацию';
+$MESSAGE['ERROR_CONFIRMATION_CODE'] = 'Введённый код подтверждения не является верным';
+$MESSAGE['REGISTER_RESPONSE_SUCCESS'] = 'Регистрация успешно завершена. Войдите в свой профиль вызвав соответствующее окно, предварительно нажав на кнопку ( Вход / Регистрация ) в правом верхнем углу';
+$MESSAGE['REGISTER_RESPONSE_FAILED'] = 'При регистрации возникла ошибка, попробуйте еще';
+$MESSAGE['REGISTER_CONFIRMED'] = 'Регистрация уже была подтверждена';
+$MESSAGE['ERROR_AUTHORIZATE'] = 'Логин или пароль являются неверными';
+$MESSAGE['PROFILE_EDIT_BUTTON'] = 'Изменить';
+$MESSAGE['ERROR_GET_USER_DATA'] = 'При получении данных возникла ошибка';
+$MESSAGE['PROFILE_EDIT_RESPONSE_SUCCESS'] = 'Данные профиля успешно обновлены';
+$MESSAGE['PROFILE_EDIT_RESPONSE_FAILED'] = 'При обновлении данных профиля возникла ошибка';
+$MESSAGE['NOT_AUTHORIZED'] = 'Пожалуйста, авторизуйтесь.';
+$MESSAGE['USER_BIRTHDATE'] = 'Дата рождения';
+$MESSAGE['USER_COUNTRY'] = 'Страна';
+$MESSAGE['USER_CITY'] = 'Город';
+$MESSAGE['USER_EMAIL'] = 'Электронная почта';
+$MESSAGE['USER_DATE'] = 'Дата регистрации';
+$MESSAGE['USER_ABOUT_DESCRIPTION'] = 'О себе';
+$MESSAGE['USER_CHANGE_PASSWORD'] = 'Сменить пароль';
+$MESSAGE['USER_CONFIRM_PASSWORD'] = 'Повторите пароль';
+$MESSAGE['AUTHORIZATE_BUTTON_EXIT'] = 'Выйти';
+$MESSAGE['LANGUAGE_CHOICE'] = 'Выберите язык';
+$MESSAGE['USER_REGISTER_BIRTHDATE_DETAIL'] = 'В формате (xx/xx/xxxx)';
+$MESSAGE['VALIDATOR_LOGIN_EXISTENCE'] = 'Данный логин уже имеется в системе';
+$MESSAGE['VALIDATOR_EMAIL_EXISTENCE'] = 'Данный адрес электронной почты уже имеется в системе';
+$MESSAGE['PERSONAL_SECTION_LINK'] = 'Перейти в личный раздел';
+$MESSAGE['MAIN_SECTION_KEYWORDS'] = 'Главная страница, главный раздел';
+$MESSAGE['PERSONAL_SECTION_KEYWORDS'] = 'Личный кабинет, личный раздел';
+
+/*BreadCrumb subsystem*/
+
+$MESSAGE['MAIN_SECTION'] = 'Главная';
+$MESSAGE['PERSONAL_SECTION'] = 'Личный раздел';
+?>

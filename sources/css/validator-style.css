@@ -1,0 +1,65 @@
+.error-input, .success-input {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    width: 46%;
+    padding: 1rem 1rem 1rem 3rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    transition: right 1s ease 0s;
+    -webkit-transition: right 1s ease 0s;
+    -o-transition: right 1s ease 0s;
+    -moz-transition: right 1s ease 0s;
+}
+
+.error-input {
+    color: #b82c2c;
+    background-color: #eda8a8;
+}
+
+.success-input {
+    color: #2bad43;
+    background-color: #a9e8a5;
+}
+
+.error-input::before, .success-input::before {
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    width: 0;
+    height: 0;
+    content: '';
+    border-top: 1.7rem solid transparent;
+    border-bottom: 1.7rem solid transparent;
+}
+
+.error-input::before {
+    border-right: 1rem solid #eda8a8;
+}
+
+.success-input::before {
+    border-right: 1rem solid #a9e8a5;
+}
+
+.error-icon, .success-icon {
+    position: absolute;
+    top: 1rem;
+    left: .5rem;
+    width: 2rem;
+    height: 2rem;
+    background: url(../images/sprite-icons/validator-response.png) no-repeat center;
+    background-size: 4rem;
+}
+
+.error-icon {
+    background-position: 0;
+}
+
+.success-icon {
+    background-position: -2rem;
+}
+
+.error-icon {
+    background-position: 0;
+}
